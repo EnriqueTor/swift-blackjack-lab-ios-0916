@@ -50,14 +50,14 @@ class CardSpec: QuickSpec {
                 }
             }
             
-            describe("description") {
-                it("should return the cardLabel") {
-                    expect(aceOfSpades.description).to(equal("♠︎A"))
-                    expect(queenOfHearts.description).to(equal("♥︎Q"))
-                    expect(tenOfDiamonds.description).to(equal("♦︎10"))
-                    expect(twoOfClubs.description).to(equal("♣︎2"))
-                }
-            }
+//            describe("description") {
+//                it("should return the cardLabel") {
+//                    expect(aceOfSpades.description).to(equal("♠︎A"))
+//                    expect(queenOfHearts.description).to(equal("♥︎Q"))
+//                    expect(tenOfDiamonds.description).to(equal("♦︎10"))
+//                    expect(twoOfClubs.description).to(equal("♣︎2"))
+//                }
+//            }
         }
     }
 }

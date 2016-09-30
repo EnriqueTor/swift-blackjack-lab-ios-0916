@@ -29,13 +29,13 @@ class DeckSpec: QuickSpec {
                 }
             }
             
-            describe("drawCard") {
-                it("should return the King of Clubs from a fresh deck") {
-                    let card = deck.drawCard()
-                    
-                    expect(card.cardLabel).to(match("♣︎K"))
-                }
-            }
+//            describe("drawCard") {
+//                it("should return the King of Clubs from a fresh deck") {
+//                    let card = deck.drawCard()
+//                    
+//                    expect(card.cardLabel).to(match("♣︎K"))
+//                }
+//            }
             
             describe("shuffle") {
                 it("should change the order of the cards") {
